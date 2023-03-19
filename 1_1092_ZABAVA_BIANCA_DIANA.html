@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Paint</title>
+    <link rel="stylesheet" href="1_1092_ZABAVA_BIANCA_DIANA.css">
+    <script src="1_1092_ZABAVA_BIANCA_DIANA.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="instrumente">
+            <div class="sir">
+                <p>Zabava Bianca-Diana 1092E</p>
+                <label class="titlu">Figuri</label>
+                <ul class="optiuni">
+                    <li class="optiune instrument" id="dreptunghi">
+                        <img src="media/dreptunghi.jpg" alt="">
+                        <span>Dreptunghi</span>
+                    </li>
+                    <li class="optiune instrument" id="cerc">
+                        <img src="media/cerc.jpg" alt="">
+                        <span>Cerc</span>
+                    </li>
+                    <li class="optiune instrument" id="triunghi">
+                        <img src="media/triunghi.jpg" alt="">
+                        <span>Triunghi</span>
+                    </li>
+                    <li class="optiune">
+                        <input type="checkbox" id="culoare">
+                        <label for="culoare">Culoare umplere</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="sir">
+                <label class="titlu">Optiuni</label>
+                <ul class="optiuni">
+                    <li class="optiune instrument activ" id="pensula">
+                        <img src="media/pensula.jpg" alt="">
+                        <span>Pensula</span>
+                    </li>
+                    <li class="optiune">
+                        <input type="range" id="grosime-linie" min="1" max="20" value="5">
+                    </li>
+                </ul>
+            </div>
+            <div class="sir culori">
+                <label class="titlu">Culori</label>
+                <ul class="optiuni">
+                    <li class="optiune selectata"></li>
+                    <li class="optiune"></li>
+                    <li class="optiune"></li>
+                    <li class="optiune"></li>
+                    <li class="optiune"></li>
+                    <li class="optiune"></li>
+                </ul>
+            </div>
+            <div class="sir buton">
+                <button class="fundal">Fundal Nou</button>
+                <button class="stergere">Desen Nou</button>
+                <button class="salvare">Salvare Imagine</button>
+            </div>
+        </section>
+        <section class="tabla-desen">
+            <canvas></canvas>
+        </section>
+    </div>
+</body>
+</html>
